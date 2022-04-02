@@ -13,9 +13,7 @@ public class Asignatura {
         
     }
 
-    Asignatura(String nombre,double codigoInterno,Tipo tipo) {
-        this("Sin nombre", codigoInterno, 0,tipo);
-    }
+    
 
     Asignatura(int codigoExterno,Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
